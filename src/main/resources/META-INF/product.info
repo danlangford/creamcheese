@@ -1,0 +1,14 @@
+group: com.danlangford
+artifact: creamcheese
+version: 0.1-SNAPSHOT
+timestamp: 2019-08-08 21:01:56
+
+name: Cream Cheese
+icon: https://i1.wp.com/goldmarketny.com/wp-content/uploads/2018/10/Plain-bagel-cream-cheese_0.png
+provider: DanLangford
+inception: 2019
+
+summary: more delicious food
+description: Xenon mod that implements something
+copyright: All rights reserved
+license: creamcheese comes with ABSOLUTELY NO WARRANTY. This is open software, and you are welcome to redistribute it under certain conditions.
