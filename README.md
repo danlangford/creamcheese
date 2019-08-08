@@ -35,7 +35,7 @@ here is an example of the product card
   "artifact": "creamcheese",
   "version": "0.1-SNAPSHOT",
   "timestamp": "2019-08-08 21:02:04",
-  "iconUri": "https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_3.0,f_auto,q_auto:low,w_400/34505_sil-creamcheese-philadelphia-1",
+  "iconUri": "https://i1.wp.com/goldmarketny.com/wp-content/uploads/2018/10/Plain-bagel-cream-cheese_0.png",
   "name": "Cream Cheese",
   "provider": "DanLangford",
   "providerUrl": "http://www.danlangford.com",
