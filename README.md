@@ -12,19 +12,27 @@ add a url there of something Xenon can find. the Url will be your Market Url
 
 ## Market
 
-Market urls could be something like `https://localhost:3000` in which case you will need to serve up a json Catalog on `/catalog`
+Market urls could be something like 
+
+```
+https://raw.githubusercontent.com/danlangford/creamcheese/master/market
+```
+ in which case you will need to serve up a json Catalog on
+ 
+```
+https://raw.githubusercontent.com/danlangford/creamcheese/master/market/catalog
+```
 
 The catalog lists your products, whose name will be worked into other urls
 > 
 ```
 {"timestamp":"1565300363166","products":["creamcheese"]}
-
 ```
 
 so with creamcheese, and xenon on Mac, i also need to serve json from this endpoint:
 
 ```
-http://localhost:3000/creamcheese/macosx/product/card
+https://raw.githubusercontent.com/danlangford/creamcheese/master/market/creamcheese/macosx/product/card
 ```
 
 here is an example of the product card
@@ -35,7 +43,7 @@ here is an example of the product card
   "artifact": "creamcheese",
   "version": "0.1-SNAPSHOT",
   "timestamp": "2019-08-08 21:02:04",
-  "iconUri": "https://i1.wp.com/goldmarketny.com/wp-content/uploads/2018/10/Plain-bagel-cream-cheese_0.png",
+  "iconUri": "https://i1.wp.com/goldmarketny.com/wp-content/uploads/2018/10/Plain-bagel-cream-cheese_0.png1",
   "name": "Cream Cheese",
   "provider": "DanLangford",
   "providerUrl": "http://www.danlangford.com",
@@ -58,13 +66,12 @@ here is an example of the product card
   }
   ]
 }
-
 ```
 
 the last thing you need to know is that the Mod JAR needs to be served on this URL
 
 ```
-http://localhost:3000/creamcheese/macosx/product/pack
+https://raw.githubusercontent.com/danlangford/creamcheese/master/market/creamcheese/macosx/product/pack
 ```
 
 ## Mod
