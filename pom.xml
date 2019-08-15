@@ -1,9 +1,9 @@
 <project>
-<modelVersion>4.0.0</modelVersion>
+  <modelVersion>4.0.0</modelVersion>
 
-<artifactId>creamcheese</artifactId>
-<groupId>com.danlangford</groupId>
-<version>0.1-SNAPSHOT</version>
+  <artifactId>creamcheese</artifactId>
+  <groupId>com.danlangford</groupId>
+  <version>0.1-SNAPSHOT</version>
 
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
@@ -12,26 +12,20 @@
 
   <repositories>
     <repository>
-      <id>REDACTED</id>
-      <url>https://repo.REDACTED.com/avn/</url>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
+      <id>avn</id>
+      <url>https://repo.avereon.com/avn/</url>
     </repository>
   </repositories>
-<dependencies>
-  <dependency>
-    <groupId>com.REDACTED</groupId>
-    <artifactId>xenon</artifactId>
-    <version>0.9-SNAPSHOT</version>
-  </dependency>
-  <dependency>
-    <groupId>com.REDACTED</groupId>
-    <artifactId>mouse</artifactId>
-    <version>0.1-SNAPSHOT</version>
-  </dependency>
-</dependencies>
+  <dependencies>
+    <dependency>
+      <groupId>com.avereon</groupId>
+      <artifactId>xenon</artifactId>
+      <version>0.9-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>com.avereon</groupId>
+      <artifactId>mouse</artifactId>
+      <version>0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
 </project>

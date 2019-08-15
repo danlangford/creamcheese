@@ -81,8 +81,8 @@ as you can see from my product card above my java jar will want this class
 ```java
 package com.danlangford.creamcheese;
 
-import com.REDACTED.product.ProductBundle;
-import com.REDACTED.xenon.Mod;
+import com.avereon.product.ProductBundle;
+import com.avereon.xenon.Mod;
 
 public class Program extends Mod {
 

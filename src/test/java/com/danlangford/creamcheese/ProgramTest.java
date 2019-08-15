@@ -1,6 +1,6 @@
 package com.danlangford.creamcheese;
 
-import com.REDACTED.mouse.MouseMod;
+import com.avereon.mouse.MouseMod;
 
 public class ProgramTest {
 
