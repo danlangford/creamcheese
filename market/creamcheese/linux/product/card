@@ -1,0 +1,28 @@
+{
+  "group": "com.danlangford",
+  "artifact": "creamcheese",
+  "version": "0.1-SNAPSHOT",
+  "timestamp": "2019-08-08 21:02:04",
+  "iconUri": "https://i1.wp.com/goldmarketny.com/wp-content/uploads/2018/10/Plain-bagel-cream-cheese_0.png1",
+  "name": "Cream Cheese",
+  "provider": "DanLangford",
+  "providerUrl": "http://www.danlangford.com",
+  "inception": "2017",
+  "summary": "more delicious food",
+  "description": "you need bagels firsts",
+  "copyrightSummary": "All rights reserved.",
+  "licenseSummary": "creamcheese comes with ABSOLUTELY NO WARRANTY. This is open software, and you are welcome to redistribute it under certain conditions.",
+  "productUri": "https://www.danlangford.com/",
+  "mainClass": "com.danlangford.creamcheese.Program",
+  "javaVersion": "11",
+  "maintainers": [
+  {
+    "name": "Dan Langford",
+    "email": "danlangford@gmail.com",
+    "timezone": null,
+    "organization": "Dan Langford",
+    "organizationUrl": "http://www.danlangford.com",
+    "roles": [ "Architect", "Developer" ]
+  }
+  ]
+}
