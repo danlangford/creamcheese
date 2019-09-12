@@ -1,6 +1,7 @@
 {
   "group": "com.danlangford",
   "artifact": "creamcheese",
+  "packaging": "mod",
   "version": "0.1-SNAPSHOT",
   "timestamp": "2019-08-08 21:02:04",
   "iconUri": "https://i1.wp.com/goldmarketny.com/wp-content/uploads/2018/10/Plain-bagel-cream-cheese_0.png1",
